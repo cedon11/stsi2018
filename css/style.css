@@ -33,8 +33,14 @@ a:focus {
 }
 
 p {
-    padding: 0;
-    margin: 0 0 30px 0;
+    /*padding: 0;
+    margin: 0 0 30px 0;*/
+    font-size: 1.6em;
+    /*16 pixels*/
+    line-height: 1.5em;
+    /*24 pixels*/
+    padding: 2.5em;
+    /*40 pixels*/
 }
 
 h1,
@@ -50,10 +56,10 @@ h6 {
 h4 {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    margin-left: 100%;
+    /*margin-left: 100%;
     margin-right: 100%;
-    width: 80%;
-    /*margin: 0 0 20px 0;*/
+    width: 80%;*/
+    margin: 0 0 20px 0;
     text-align: center;
 }
 
