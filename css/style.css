@@ -399,6 +399,7 @@ h4 {
 #nav-menu-container {
     float: right;
     margin: 0;
+    display: grid | inline-grid | subgrid;
 }
 
 @media (max-width: 768px) {
@@ -413,7 +414,8 @@ h4 {
 .nav-menu a {
     padding: 0 8px 10px 8px;
     text-decoration: none;
-    display: inline-block;
+    /*display: inline-block;*/
+    display: grid | inline-grid | subgrid;
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -907,6 +909,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 30px 0;
     color: #333;
     font-size: 14px;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 #footer .credits {
