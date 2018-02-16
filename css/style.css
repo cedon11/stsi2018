@@ -14,7 +14,7 @@
 body {
     background: #fff;
     color: #666666;
-    font-family: 'Domine', serif;
+    /*font-family:"montserrat", sans-serif;*/
     /*font-family: "Open Sans", sans-serif;*/
     overflow-x: hidden;
 }
@@ -929,4 +929,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-links a:hover {
     color: #1dc8cd;
+}
+
+#agnaldoteste {
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
 }
